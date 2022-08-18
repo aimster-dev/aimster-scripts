@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS aimster.aimster_collection (
+CREATE TABLE IF NOT EXISTS aimster.user_friend (
 	id INT NOT NULL AUTO_INCREMENT,
 	fk_source_id INT NOT NULL,
     fk_target_id INT NOT NULL,

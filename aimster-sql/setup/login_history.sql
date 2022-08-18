@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS aimster.aimster_collection (
+CREATE TABLE IF NOT EXISTS aimster.login_history (
 	id INT NOT NULL AUTO_INCREMENT,
 	fk_user_id INT NOT NULL,
     login_time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,

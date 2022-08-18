@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS aimster.aimster_collection (
+CREATE TABLE IF NOT EXISTS aimster.item_inventory (
 	id INT NOT NULL AUTO_INCREMENT,
 	fk_user_id INT NOT NULL,
     fk_item_id INT NOT NULL,
