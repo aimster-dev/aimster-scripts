@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS aimster.user (
     email VARCHAR(100) NOT NULL,
 	experience BIGINT NOT NULL DEFAULT 0,
     confirmation_code VARCHAR(50),
-    confirmation_date TIMESTAMP NOT NULL,
+    confirmation_date TIMESTAMP,
     created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     PRIMARY KEY ( id )
